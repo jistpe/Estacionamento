@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ManobreFacil.Models.Manobrista>
+
+@{
+    ViewData["Title"] = "Lista de Manobristas";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Novo Manobrista</a>
+</p>
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CPF)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataNascimento)
+                </td>
+                <td class="float-right">
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+    } 
+    @if(!Model.Any())
+    {
+        <tr>
+            <td colspan="4" class="text-center">
+                Nenhum Item cadastrado
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

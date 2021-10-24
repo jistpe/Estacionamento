@@ -1,0 +1,38 @@
+﻿@model ManobreFacil.Models.Manobra
+
+@{
+    ViewData["Title"] = "Editar manobra";
+}
+
+<h3> @ViewData["Title"]</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="ManobristaId" class="control-label">Motorista</label>
+                <select asp-for="ManobristaId" class="form-control" asp-items="ViewBag.ManobristaId"></select>
+                <span asp-validation-for="ManobristaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarroId" class="control-label">Carro</label>
+                <select asp-for="CarroId" class="form-control" asp-items="ViewBag.CarroId"></select>
+                <span asp-validation-for="CarroId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar a lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

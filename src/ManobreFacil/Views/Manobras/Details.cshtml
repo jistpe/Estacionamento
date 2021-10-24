@@ -1,0 +1,29 @@
+﻿@model ManobreFacil.Models.Manobra
+
+@{
+    ViewData["Title"] = "Detalhes da manobra";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Manobrista)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Manobrista.CPF)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Carro)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Carro.Marca)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar a lista</a>
+</div>

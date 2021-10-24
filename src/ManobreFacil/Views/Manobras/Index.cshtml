@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ManobreFacil.Models.Manobra>
+
+@{
+    ViewData["Title"] = "Lista de manobras";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<p>
+    <a class="btn btn-success"  asp-action="Create">Nova Manobra</a>
+</p>
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Manobrista)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Manobrista.CPF)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Carro.Marca)
+                </td>
+                <td class="float-right">
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="4" class="text-center">
+                    Nenhum Item cadastrado
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
