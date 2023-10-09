@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ManobreFacil
+build_property.RootNamespace = ManobreFacil
+build_property.ProjectDir = D:\DESENVOLVIMENTO\JACO MANOBRE\src\ManobreFacil\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DESENVOLVIMENTO\JACO MANOBRE\src\ManobreFacil
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Carros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Carros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Carros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Carros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Carros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobras/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobras/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobras/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobras/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobras/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobristas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyaXN0YXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobristas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyaXN0YXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobristas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyaXN0YXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobristas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyaXN0YXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Manobristas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFub2JyaXN0YXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DESENVOLVIMENTO/JACO MANOBRE/src/ManobreFacil/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
